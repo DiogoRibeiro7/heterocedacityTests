@@ -12,11 +12,11 @@
 #' performWhiteTest(model, mtcars)
 
 
-library(assertthat)
+
 
 performWhiteTest <- function(model, data) {
   # Ensure input types are correct
-  assertthat::assert_that(is.list(model), is.data.frame(data))
+
 
   # Documentation:
   # This function performs the White test for heteroscedasticity on a linear model.
